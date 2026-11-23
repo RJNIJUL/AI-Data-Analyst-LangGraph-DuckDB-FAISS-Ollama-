@@ -1,3 +1,6 @@
+<img width="1911" height="840" alt="Screenshot 2026-11-23 105950" src="https://github.com/user-attachments/assets/cb71815d-71c8-4f69-afce-1b95695d80cb" />
+<img width="1901" height="940" alt="Screenshot 2026-11-23 105736" src="https://github.com/user-attachments/assets/d3033837-333b-4915-92f6-be667c137e7f" />
+<img width="1902" height="943" alt="Screenshot 2026-11-23 105648" src="https://github.com/user-attachments/assets/32749a6e-2451-403d-b949-0cea3eceb99d" />
 # AI Data Analyst (LangGraph + DuckDB + FAISS + Ollama)
 
 An end-to-end, 100% local **AI Data Analyst** that enables users to upload CSV or Excel datasets, ask questions in plain English, generate interactive visualizations, train machine learning models, and export verified analytical reports—**without relying on paid API keys**.
