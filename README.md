@@ -44,3 +44,27 @@ An end-to-end, 100% local **AI Data Analyst** that enables users to upload CSV o
            \                               /
             ▼                             ▼
            Verified Grounded Answer (Ollama)
+
+
+
+
+
+## How to Use
+
+### Step 1: Launch the App
+- **In Google Colab:** Run all cells in `AI_Data_Analyst.ipynb` and click the `https://xxxx.gradio.live` public link at the bottom.
+- **Locally:** Run `ollama pull qwen2.5:3b`, install dependencies (`pip install -r requirements.txt`), and run all cells in `AI_Data_Analyst.ipynb`.
+
+### Step 2: Explore & Ask Questions (Tab 1 — Data & Ask AI)
+1. **Upload Dataset (Optional):** Click **Upload CSV or Excel** to load your own `.csv` or `.xlsx` file. The app automatically cleans duplicates and missing values. (If skipped, the built-in 500-row sales dataset is used.)
+2. **Ask in Plain English:** Type any question in **Ask a Question** and click **Ask AI**:
+   - *Data questions* (e.g., `"Which category has the highest total sales?"`) run a safe DuckDB SQL query for exact numbers.
+   - *Definition questions* (e.g., `"How is Profit Margin calculated?"`) search the FAISS vector database for context.
+
+### Step 3: Visualize & Predict (Tab 2 — Charts & ML)
+1. **View Charts:** Pick a chart from the dropdown (`Category Sales` or `Region Sales`) and click **Show Chart**.
+2. **Train ML Model:** Choose any column in **Select Target Column to Predict** (e.g., `Profit` for regression or `Category` for classification) and click **Train & Predict** to see model accuracy/$R^2$ score and predictions.
+
+### Step 4: Export Report (Tab 3 — Report)
+1. Click **Generate Report** to create an executive summary backed by verified DuckDB calculations.
+2. Click the `sales_report.txt` link in **Download Report** to save it to your device.
