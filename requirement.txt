@@ -1,0 +1,15 @@
+pandas
+numpy
+duckdb
+plotly
+scikit-learn
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+langgraph
+sentence-transformers
+faiss-cpu
+pydantic
+gradio
+openpyxl
